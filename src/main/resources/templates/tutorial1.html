@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Planning Your First Trip</title>
+
+    <link rel="stylesheet"
+          th:href="@{/css/style.css}">
+</head>
+
+<body>
+
+<header th:replace="~{fragments/layout :: header}"></header>
+
+<main>
+
+    <h2>Planning Your First Trip</h2>
+
+    <img th:src="@{/images/tutorial1.jpg}"
+         alt="Travel planning">
+
+    <p>
+        Planning a trip is easier when you break the process
+        into several smaller steps.
+    </p>
+
+    <h3>Step 1: Choose a Destination</h3>
+
+    <p>
+        Start by deciding where you would like to travel.
+        Consider your budget, available time, and interests.
+    </p>
+
+
+    <nav class="tutorial-navigation">
+        <a th:href="@{/}">Home</a>
+        <a th:href="@{/tutorial2}">Next Step →</a>
+    </nav>
+
+</main>
+
+<footer th:replace="~{fragments/layout :: footer}"></footer>
+
+</body>
+</html>

@@ -1,0 +1,227 @@
+/* ==========================================================
+   GENERAL
+========================================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f1ea;
+    color: #333;
+}
+
+
+/* ==========================================================
+   HEADER
+========================================================== */
+
+header {
+    background: #263238;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 15px;
+}
+
+
+/* ==========================================================
+   NAVIGATION
+========================================================== */
+
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* ==========================================================
+   MAIN CONTENT
+========================================================== */
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+}
+
+main h2 {
+    margin-top: 0;
+    color: #37474f;
+}
+
+main img {
+    display: block;
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+
+/* ==========================================================
+   TUTORIAL NAVIGATION
+========================================================== */
+
+.tutorial-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.tutorial-navigation a {
+    padding: 10px 18px;
+    background: #546e7a;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.tutorial-navigation a:hover {
+    background: #37474f;
+}
+
+
+/* ==========================================================
+   FOOTER
+========================================================== */
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #263238;
+    color: white;
+    margin-top: 40px;
+}/* ==========================================================
+   GENERAL
+========================================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f1ea;
+    color: #333;
+}
+
+
+/* ==========================================================
+   HEADER
+========================================================== */
+
+header {
+    background: #263238;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 15px;
+}
+
+
+/* ==========================================================
+   NAVIGATION
+========================================================== */
+
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* ==========================================================
+   MAIN CONTENT
+========================================================== */
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+}
+
+main h2 {
+    margin-top: 0;
+    color: #37474f;
+}
+
+main img {
+    display: block;
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+
+/* ==========================================================
+   TUTORIAL NAVIGATION
+========================================================== */
+
+.tutorial-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.tutorial-navigation a {
+    padding: 10px 18px;
+    background: #546e7a;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.tutorial-navigation a:hover {
+    background: #37474f;
+}
+
+
+/* ==========================================================
+   FOOTER
+========================================================== */
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #263238;
+    color: white;
+    margin-top: 40px;
+}

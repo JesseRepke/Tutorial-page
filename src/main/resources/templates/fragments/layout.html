@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+
+<body>
+
+<header th:fragment="header">
+    <h1>My Tutorial Website</h1>
+
+    <nav>
+        <a th:href="@{/}">Home</a>
+        <a th:href="@{/tutorial1}">Step 1</a>
+        <a th:href="@{/tutorial2}">Step 2</a>
+        <a th:href="@{/tutorial3}">Step 3</a>
+    </nav>
+</header>
+
+
+<footer th:fragment="footer">
+    <p>&copy; 2026 My Tutorial Website</p>
+</footer>
+
+</body>
+</html>

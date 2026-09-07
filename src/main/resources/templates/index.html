@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+
+    <link rel="stylesheet"
+          th:href="@{/css/style.css}">
+</head>
+
+<body>
+
+<header th:replace="~{fragments/layout :: header}"></header>
+
+<main>
+
+    <h2>Welcome!</h2>
+
+    <img th:src="@{/images/home.jpg}"
+         alt="Travel destination">
+
+    <p>
+        Welcome to my tutorial website. Here you will learn
+        about planning and enjoying your next trip.
+    </p>
+
+    <h3>Tutorials</h3>
+
+    <ul>
+        <li>
+            <a th:href="@{/tutorial1}">
+                Planning Your First Trip
+            </a>
+        </li>
+
+        <li>
+            <a th:href="@{/tutorial2}">
+                Choosing a Destination
+            </a>
+        </li>
+
+        <li>
+            <a th:href="@{/tutorial3}">
+                Booking Everything
+            </a>
+        </li>
+    </ul>
+
+</main>
+
+<footer th:replace="~{fragments/layout :: footer}"></footer>
+
+</body>
+</html>
